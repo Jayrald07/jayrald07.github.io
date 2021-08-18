@@ -57,8 +57,8 @@ var controller = (function(VIEW){
 
 controller.startGreet([
     "Jayrald",
-    "4a 61 79 72 61 6c 64",
-    "112 141 171 162 141 154 144",
+    "4a617972616c64",
+    "112141171162141154144",
     "SmF5cmFsZDA3",
     "jayrald_key.pem",
     "?name=Jayrald",
