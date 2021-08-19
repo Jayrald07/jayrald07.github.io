@@ -62,12 +62,11 @@ header {
     color:#454545;
     font-weight: bold;
     font-size: 26pt;
-    caret-color: var(--white);
     word-break: break-all
 }
 
-.greetins p > :not(.not) {
-    border-left: 2px solid var(--white);
+.greetings p > :not(.not) {
+    border-left: 2px solid #454545;
     animation: blink 1s step-end infinite;
     margin-left: 5px;
 }
@@ -268,6 +267,6 @@ main p {
         border-color: transparent;
     }
     50%{
-        border-color: var(--white);
+        border-color: #454545;
     }
 }
