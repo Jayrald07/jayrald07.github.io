@@ -45,7 +45,7 @@ nav ul li:hover {
 
 header {
     padding: 10px 100px;
-    background: url("./Banner.png");
+    background: url("./assets/Banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 344px;
@@ -66,12 +66,6 @@ header {
     margin-left: 5px;
 }
 
-#header {
-    /* background-color: whitesmoke; */
-    /* padding: 0 20px; */
-    border-radius: 4px;
-    /* color: #454545 */
-}
 
 main {
     background-color: var(--white);
@@ -91,6 +85,7 @@ main p {
     padding: 30px 100px;
     padding-top:100px;
     background-color: whitesmoke;
+    color:#454545
 }
 
 .greetings .headline {
@@ -111,6 +106,54 @@ main p {
     position: absolute;
     transform: translate(-80px,290px);
 }
+
+.line-through {
+    display:block;
+    border-top:1px solid #e0e0e0;
+    margin-top: 30px;
+}
+
+.stacks {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 10px;
+}
+
+.devtools {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+
+.stack-card {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e0e0e0;
+    padding: 0 30px;
+    border-radius: 4px;
+    flex:1
+}
+
+.stack-card i {
+    font-size: 17pt;
+    margin-right: 10px;
+}
+
+.projects {
+    background-color:#030931 ;
+    padding: 30px 100px;
+    color:var(--white)
+}
+
+.projects h2 {
+    margin:0
+}
+
+.B {
+    fill: #ff6c37
+}
+
 
 @keyframes blink {
     from,to {
