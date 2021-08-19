@@ -112,7 +112,7 @@ main p {
     border-radius: 100%;
     border: 6px solid whitesmoke;
     position: absolute;
-    transform: translate(-80px,270px);
+    transform: translate(-100px,-60px);
 }
 
 .line-through {
