@@ -50,10 +50,14 @@ nav ul li:hover {
 
 header {
     padding: 10px 100px;
+    background-color: #030931;
+}
+
+.banner {
     background: url("./assets/Banner.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 344px;
+    padding-bottom: 436px;
     background-position-x: center;
 }
 
@@ -306,7 +310,13 @@ main p {
     .greetings .headline {
         font-size: 8pt
     }
+    nav ul li a{
+        /* display: none; */
+        font-size: 8pt;
+        padding: 10px
+    }
     nav {
+        padding: 20px
     }
 
     .image-container img{
@@ -330,5 +340,11 @@ main p {
     }
     .experience p {
         font-size: 10pt
+    }
+    .banner {
+        background-size: 700px;
+        padding-bottom: 200px;
+        background-position: center;
+
     }
 }
