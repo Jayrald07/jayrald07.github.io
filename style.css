@@ -45,7 +45,7 @@ nav ul li:hover {
 
 header {
     padding: 10px 100px;
-    background: url("./assets/Banner.png");
+    background: url("./assets/Banner.svg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 344px;
@@ -104,7 +104,7 @@ main p {
     border-radius: 100%;
     border: 6px solid whitesmoke;
     position: absolute;
-    transform: translate(-80px,290px);
+    transform: translate(-80px,270px);
 }
 
 .line-through {
@@ -115,8 +115,9 @@ main p {
 
 .stacks {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6,auto);
     grid-gap: 10px;
+    grid-auto-columns: auto;
 }
 
 .devtools {
@@ -132,7 +133,7 @@ main p {
     border: 1px solid #e0e0e0;
     padding: 0 30px;
     border-radius: 4px;
-    flex:1
+    background-color: whitesmoke;
 }
 
 .stack-card i {
@@ -140,11 +141,16 @@ main p {
     margin-right: 10px;
 }
 
-.projects {
-    background-color:#030931 ;
-    padding: 30px 100px;
-    color:var(--white)
+.stack-card h4 {
+    color: #454545
 }
+
+.projects {
+    background-color:whitesmoke ;
+    padding: 30px 100px;
+    color:#454545
+}
+
 
 .projects h2 {
     margin:0
@@ -154,6 +160,48 @@ main p {
     fill: #ff6c37
 }
 
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    margin-top: 30px;
+}
+
+.project-card {
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #e0e0e0
+}
+
+.project-card img {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.project-card-body {
+    padding:10px 20px;
+    color: #454545
+}
+
+.project-card-body p {
+    font-size: 10pt;
+}
+
+.project-card-body h5 {
+    margin: 5px 0;
+}
+
+.stacks-container {
+    padding: 30px 100px;
+    background-color: #030931;
+    color: var(--white)
+}
+
+.stack-used {
+    font-size:17pt;
+    margin-right: 10px;
+}
 
 @keyframes blink {
     from,to {
