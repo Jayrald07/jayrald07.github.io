@@ -56,11 +56,11 @@ var controller = (function(VIEW){
 })(view);
 
 controller.startGreet([
-    "Jayrald",
+    "Jayrald Empino",
     "4a617972616c64",
     "112141171162141154144",
     "SmF5cmFsZDA3",
-    "jayrald_key.pem",
-    "?name=Jayrald",
-    "{ \"name\" : \"Jayrald\" }"
+    "jayrald_empino_key.pem",
+    "?name=Jayrald Empino",
+    "{ \"name\" : \"Jayrald Empino\" }"
 ])

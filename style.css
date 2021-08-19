@@ -142,7 +142,8 @@ main p {
 }
 
 .stack-card h4 {
-    color: #454545
+    color: #454545;
+    font-size: 10pt;
 }
 
 .projects {
@@ -201,6 +202,59 @@ main p {
 .stack-used {
     font-size:17pt;
     margin-right: 10px;
+}
+
+.timeline {
+    display: flex;
+    margin-top: 30px;
+}
+
+.bar {
+    padding: 3px;
+    background-color: #030931;
+    /* height: 100px; */
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.dot {
+    position: absolute;
+    background-color: #030931;
+    border: 5px solid whitesmoke;
+    padding: 8px;
+    border-radius: 100%;
+    transform: translate(-36px,0px);
+}
+
+.experience-container {
+    padding: 20px 0
+}
+
+.experience {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.experience:not(:last-child) {
+    margin-bottom: 40px;
+
+}
+
+.experience img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.experience h5 {
+    margin:0;
+    font-size: 11pt;
+}
+
+.experience p {
+    margin:0;
+    font-size: 10pt;
+    font-weight: normal;
 }
 
 @keyframes blink {
