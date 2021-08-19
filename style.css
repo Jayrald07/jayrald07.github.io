@@ -11,6 +11,7 @@ body,html {
     padding:0;
     margin:0;
     /* background-color: #000931; */
+    scroll-behavior: smooth;
 }
 .panel {
     padding:10px;
@@ -32,10 +33,15 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
-    padding:30px 20px;
-    font-size: 11pt;
-    color:var(--white);
+}
+
+nav ul li a {
     font-weight: bold;
+    font-size: 11pt;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white);
+    padding:30px 20px;
 }
 
 nav ul li:hover {
