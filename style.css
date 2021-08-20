@@ -276,7 +276,74 @@ main p {
     }
 }
 
-@media only screen and (max-width:414px) {
+@media only screen and (max-width:763px) {
+    header {
+        padding: 0 30px;
+        background-position: center;
+    }
+    .greetings {
+        padding: 20px 30px;
+        padding-top: 80px
+    }
+
+    .projects {
+        padding: 20px 30px
+    }
+    .project-container {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin-top:10px
+    }
+    .stacks-container {
+        padding:30px
+    }
+    .stacks {
+        grid-template-columns: repeat(3,1fr);
+        /* grid-gap: 0; */
+        grid-template-rows: auto;
+
+    }
+    .greetings p {
+        font-size:20pt;
+        margin:0;
+    }
+    .greetings .headline {
+        font-size: 10pt
+    }
+    nav ul li a{
+        /* display: none; */
+        font-size: 10pt;
+        padding: 10px
+    }
+    nav {
+        padding: 20px
+    }
+
+    .image-container img{
+        width: 120px;
+        transform: translate(-80px,-50px);
+    }
+    .devtools {
+        font-size:12pt
+    }
+    .pls {
+        font-size:12pt
+    }
+
+    .timeline {
+        padding-bottom: 20px;
+        margin-top: 10px
+    }
+
+    .experience h5 {
+        font-size:10pt
+    }
+    .experience p {
+        font-size: 10pt
+    }
+}
+
+@media only screen and (max-width:640px) {
     header {
         padding: 0;
         background-position: center;
