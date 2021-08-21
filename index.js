@@ -1,7 +1,9 @@
-var view = (function(){
-    const h = document.getElementById("header");
-    let a = "Hi, I'm Jayrald!";
+var view = (function () {
+    let h = null;
     return {
+        set elem(value) {
+            h = value;
+        },
         async appendString(value,delayEnd = 1500) {
             let i = 0;
             await new Promise((resolve) => {
@@ -42,6 +44,9 @@ var view = (function(){
 
 var controller = (function(VIEW){
     return {
+        setElem(elem) {
+            VIEW.elem = elem
+        },
         async startGreet(values) {
             let i = 0;
             while (true) {
@@ -55,12 +60,3 @@ var controller = (function(VIEW){
     }
 })(view);
 
-controller.startGreet([
-    "Jayrald Empino",
-    "4a617972616c64",
-    "112141171162141154144",
-    "SmF5cmFsZDA3",
-    "jayrald_empino_key.pem",
-    "?name=Jayrald Empino",
-    "{ \"name\" : \"Jayrald Empino\" }"
-])
